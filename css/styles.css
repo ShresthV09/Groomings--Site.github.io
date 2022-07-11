@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Splash&family=The+Nautigal&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFF5EA;
+}
+.container{
+    min-height: 87vh;
+}
+footer {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    height: 4vh;
+    border: 3px solid #361500;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color:#361500;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+  
+}
+.logo img{
+    height: 38px;
+    padding: 0px 25px;
+    width: 70px;
+}
+nav{
+    display: flex;
+    position: sticky ;
+}
+nav ul{
+    height: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name{
+    color: white;
+    text-decoration: none;
+    font-family: 'Splash', cursive;
+}
+nav ul li {
+    list-style: none;
+    padding:0px 23px;
+    margin-left: 50px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: black;
+    background-color:antiquewhite;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+.search{
+    width: 350px;
+    border-radius: 5px;
+    margin: 0 16px 0 140px;
+    padding:    0 12px;
+}
+.form{
+    border-radius: 5px;
+    padding:    0 12px;
+}
+.G1{    
+    display: flex;
+    justify-content:start;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 50vh;
+    width: 70vw;
+}
+
+.slider{
+    display: flex;
+    justify-content:start;
+    margin-left: 15px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.cont{
+    font-size:larger;
+    border-radius: 3px;
+    border-bottom: 2px solid #361500;
+    border-top: 2px solid #361500;
+    font-family: 'Indie Flower', cursive;
+    
+}
+.wlogo{
+    padding: 60px 100px 10px 100px ;
+    font-family: 'Splash', cursive;
+    font-size: 2cm;
+    
+}
+.tag{
+    padding-bottom: 30px;
+    padding-left: 300px;
+    font-size: xx-large;
+    font-family: 'The Nautigal', cursive;
+   
+}
+.hc{
+    color: white;
+    background-color: #361500;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center ;
+    margin: 10px 0px ;
+    border:2px solid  #361500;
+    border-radius: 8px;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+    justify-content: center;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.Product-Name{
+    font-family: 'Pacifico', cursive;
+    
+}
+.price{
+    font-family: 'Caveat', cursive;
+}
+h3{
+    margin-bottom:30px;
+}
